@@ -18,7 +18,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
+    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        view.backgroundColor = UIColor(red: CGFloat.random(in: 0...1), green: CGFloat.random(in: 0...1), blue: CGFloat.random(in: 0...1), alpha: 1.0)
+    }
+
     //Actions
     @IBAction func buttonPressed(_ sender: UIButton) {
         view.backgroundColor = .blue
