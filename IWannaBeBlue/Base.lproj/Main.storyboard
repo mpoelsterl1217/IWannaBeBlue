@@ -40,6 +40,14 @@
                                     <action selector="backPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VqU-ph-hbn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSr-Zp-Cy9">
+                                <rect key="frame" x="41" y="568.66666666666663" width="308" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="I Wanna Be Random"/>
+                                <connections>
+                                    <action selector="randomButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MwR-vV-KnY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -48,7 +56,9 @@
                             <constraint firstItem="it3-7P-Xaf" firstAttribute="top" secondItem="9Zl-Jp-Vfx" secondAttribute="bottom" constant="32" id="T2G-Qq-kTK"/>
                             <constraint firstItem="PIo-E0-14W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="128" id="YVP-zg-VGD"/>
                             <constraint firstItem="it3-7P-Xaf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="crY-Cq-8uS"/>
+                            <constraint firstItem="QSr-Zp-Cy9" firstAttribute="top" secondItem="it3-7P-Xaf" secondAttribute="bottom" constant="32" id="feg-xN-9I4"/>
                             <constraint firstItem="PIo-E0-14W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kxQ-z5-IzH"/>
+                            <constraint firstItem="QSr-Zp-Cy9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m0n-56-Whh"/>
                             <constraint firstItem="9Zl-Jp-Vfx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p67-jY-Igh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PIo-E0-14W" secondAttribute="trailing" constant="16" id="tXA-Eq-hMe"/>
                         </constraints>

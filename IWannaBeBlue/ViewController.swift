@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     //Outlets
     @IBOutlet weak var textLabel: UILabel!
     
+    //Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -28,6 +29,9 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
         textLabel.text = "What color am I?"
         textLabel.textColor = .black
+    }
+    @IBAction func randomButtonPressed(_ sender: UIButton) {
+        view.backgroundColor = UIColor(red: CGFloat.random(in: 0...1), green: CGFloat.random(in: 0...1), blue: CGFloat.random(in: 0...1), alpha: 1.0)
     }
     
 }
